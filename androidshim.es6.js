@@ -16,6 +16,9 @@ class Context {
     getContentResolver() {
         return this;
     }
+    getBaseContext() {
+        return this;
+    }
     getApplication() {
         return this;
     }
